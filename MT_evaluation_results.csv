@@ -1,0 +1,9 @@
+model,dataset,language_pair,eng_Latn-fuv_Latn_bleu,eng_Latn-fuv_Latn_spbleu,eng_Latn-fuv_Latn_chrf++,eng_Latn-fuv_Latn_ter,fuv_Latn-eng_Latn_bleu,fuv_Latn-eng_Latn_spbleu,fuv_Latn-eng_Latn_chrf++,fuv_Latn-eng_Latn_ter,eng_Latn-fuc_Latn_bleu,eng_Latn-fuc_Latn_spbleu,eng_Latn-fuc_Latn_chrf++,eng_Latn-fuc_Latn_ter,fuc_Latn-eng_Latn_bleu,fuc_Latn-eng_Latn_spbleu,fuc_Latn-eng_Latn_chrf++,fuc_Latn-eng_Latn_ter,eng_Latn-dag_Latn_bleu,eng_Latn-dag_Latn_spbleu,eng_Latn-dag_Latn_chrf++,eng_Latn-dag_Latn_ter,dag_Latn-eng_Latn_bleu,dag_Latn-eng_Latn_spbleu,dag_Latn-eng_Latn_chrf++,dag_Latn-eng_Latn_ter
+facebook/nllb-200-3.3B,flores,eng_Latn-fuv_Latn,3.97,5.28,22.94,100.88,11.55,13.72,32.4,91.63,,,,,,,,,,,,,,,,
+facebook/nllb-200-3.3B,bouquet,eng_Latn-fuv_Latn,6.5,9.63,24.51,94.96,18.08,19.04,36.27,78.17,,,,,,,,,,,,,,,,
+facebook/nllb-200-distilled-600M,flores,eng_Latn-fuv_Latn,1.74,2.44,16.95,137.93,10.27,12.42,30.72,93.29,,,,,,,,,,,,,,,,
+facebook/nllb-200-distilled-600M,bouquet,eng_Latn-fuv_Latn,4.85,5.81,20.88,135.7,14.75,15.95,32.04,82.87,,,,,,,,,,,,,,,,
+Helsinki-NLP/opus-mt-tc-bible-big-mul-mul,flores,eng_Latn-fuv_Latn,0.66,0.77,7.2,113.56,2.54,3.34,18.53,151.79,,,,,,,,,,,,,,,,
+Helsinki-NLP/opus-mt-tc-bible-big-mul-mul,bouquet,eng_Latn-fuc_Latn,,,,,,,,,0.98,1.13,9.92,143.37,1.09,1.56,15.49,157.27,,,,,,,,
+Helsinki-NLP/opus-mt-tc-bible-big-mul-mul,bouquet,eng_Latn-fuv_Latn,0.88,0.5,5.48,136.01,2.47,3.08,17.28,147.26,,,,,,,,,,,,,,,,
+Helsinki-NLP/opus-mt-tc-bible-big-mul-mul,udhr,eng_Latn-dag_Latn,,,,,,,,,,,,,,,,,0.05,0.02,8.37,111.27,0.24,0.21,12.41,175.67
