@@ -16,8 +16,8 @@ Published benchmarks cover only a fraction of WCA languages. This project fills 
 
 | Model | Ewe | Mooré | Dagbani | Nigerian Fulfulde | C-E Niger Fulfulde | Soninke |
 |-------|-----|-------|---------|-------------------|---------------------|---------|
-| [OmnilingualASR 3B](https://huggingface.co/facebook/omniASR-LLM-3B) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
-| [OmnilingualASR 7B](https://huggingface.co/facebook/omniASR-LLM-7B) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
+| [OmnilingualASR 3B](https://dl.fbaipublicfiles.com/mms/omniASR-LLM-Unlimited-3B-v2.pt) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
+| [OmnilingualASR 7B](https://dl.fbaipublicfiles.com/mms/omniASR-LLM-Unlimited-7B-v2.pt) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
 | [MMS-1B-All](https://huggingface.co/facebook/mms-1b-all) | Waxal | GoAI | — | — | — | — |
 | [Simba-S](https://huggingface.co/UBC-NLP/Simba-S) | Waxal | GoAI | — | — | — | — |
 
@@ -33,7 +33,7 @@ Published benchmarks cover only a fraction of WCA languages. This project fills 
 
 - **ASR evaluation** uses NeMo manifests for reproducible scoring. WER and CER are computed using standard text normalization from the OmnilingualASR toolkit.
 - **MT evaluation** uses sacreBLEU for BLEU/spBLEU and chrF++ scores, plus TER.
-- All inference was run on Kaggle T4 GPUs.
+- MT evaluation was run on a NVIDIA GeForce RTX 4090. OmnilingualASR 7B, MMS, and Simba-S evaluation was run on a NVIDIA RTX PRO 5000 Blackwell. OmnilingualASR 3B evaluation was run on a Kaggle T4 GPU.
 
 ### Issues encountered
 
@@ -81,8 +81,8 @@ Strong direction asymmetry: X→en consistently scores higher than en→X. OPUS-
 ## Repository structure
 
 ```
-├── African-Languages-ASR-Evaluation.ipynb   # ASR evaluation notebook (Kaggle)
-├── African_Languages_MT_Evaluation.ipynb    # MT evaluation notebook (Kaggle)
+├── African-Languages-ASR-Evaluation.ipynb   # ASR evaluation notebook
+├── African_Languages_MT_Evaluation.ipynb    # MT evaluation notebook
 ├── ASR_evaluation_results.csv               # ASR results (WER, CER)
 ├── MT_evaluation_results.csv                # MT results (BLEU, spBLEU, chrF++, TER)
 └── nemo-manifests/                          # NeMo-format manifests for ASR evaluation
@@ -99,7 +99,7 @@ Strong direction asymmetry: X→en consistently scores higher than en→X. OPUS-
 | [GoAI / Moore Speech Corpora](https://huggingface.co/datasets/goaicorp/GOAI-MooreSpeechCorpora) | mos | ASR |
 | [FLORES+](https://huggingface.co/datasets/openlanguagedata/flores_plus) | fuv | MT |
 | [BOUQuET](https://huggingface.co/datasets/facebook/bouquet) | fuv, fuc | MT |
-| [UDHR](https://huggingface.co/datasets/Davlan/udhr) | dag | MT |
+| [UDHR](http://efele.net/udhr/translations.html) | dag | MT |
 
 ## License
 
