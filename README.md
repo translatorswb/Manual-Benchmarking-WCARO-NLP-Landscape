@@ -14,18 +14,18 @@ Published benchmarks cover only a fraction of WCA languages. This project fills 
 
 | Model | Ewe | Mooré | Dagbani | Nigerian Fulfulde | C-E Niger Fulfulde | Soninke |
 |-------|-----|-------|---------|-------------------|---------------------|---------|
-| OmnilingualASR 3B | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
-| OmnilingualASR 7B | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
-| MMS-1B-All | Waxal | GoAI | — | — | — | — |
-| Simba-S | Waxal | GoAI | — | — | — | — |
+| [OmnilingualASR 3B](https://huggingface.co/facebook/omniASR-LLM-3B) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
+| [OmnilingualASR 7B](https://huggingface.co/facebook/omniASR-LLM-7B) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
+| [MMS-1B-All](https://huggingface.co/facebook/mms-1b-all) | Waxal | GoAI | — | — | — | — |
+| [Simba-S](https://huggingface.co/UBC-NLP/Simba-S) | Waxal | GoAI | — | — | — | — |
 
 ### MT
 
 | Model | Language pairs | Test sets |
 |-------|---------------|-----------|
-| NLLB 3.3B | fuv↔en | FLORES+ devtest, BOUQuET |
-| NLLB Distilled 600M | fuv↔en | FLORES+ devtest, BOUQuET |
-| OPUS-MT (bible-big-mul-mul) | dag↔en, fuc↔en | UDHR, BOUQuET |
+| [NLLB 3.3B](https://huggingface.co/facebook/nllb-200-3.3B) | fuv↔en | FLORES+ devtest, BOUQuET |
+| [NLLB Distilled 600M](https://huggingface.co/facebook/nllb-200-distilled-600M) | fuv↔en | FLORES+ devtest, BOUQuET |
+| [OPUS-MT (bible-big-mul-mul)](https://huggingface.co/Helsinki-NLP/opus-mt-tc-bible-big-mul-mul) | dag↔en, fuc↔en | UDHR, BOUQuET |
 
 ## Methodology
 
