@@ -1,6 +1,6 @@
 # Manual Benchmarking — UNICEF WCARO NLP Landscape
 
-Manual evaluation of ASR and MT models on West and Central African languages, conducted as part of [CLEAR Global](https://clearglobal.org)'s NLP landscape mapping consultancy for UNICEF WCARO, conducted by [Mohamed Aymane Farhi](https://github.com/MedAymenF) ([original repo](https://github.com/MedAymenF/Manual-Benchmarking-WCARO-NLP-Landscape)).
+Manual evaluation of ASR and MT models on West and Central African languages by [Mohamed Aymane Farhi](https://github.com/MedAymenF) ([original repo](https://github.com/MedAymenF/Manual-Benchmarking-WCARO-NLP-Landscape)), as part of [CLEAR Global](https://clearglobal.org)'s NLP landscape mapping consultancy for UNICEF WCARO.
 
 Results feed into the [UNICEF WCA NLP Landscape](https://unicef-ventures.github.io/wca-nlp-landscape/) website ([repo](https://github.com/UNICEF-Ventures/wca-nlp-landscape)).
 
