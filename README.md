@@ -16,8 +16,8 @@ Published benchmarks cover only a fraction of WCA languages. This project fills 
 
 | Model | Ewe | Mooré | Dagbani | Nigerian Fulfulde | C-E Niger Fulfulde | Soninke |
 |-------|-----|-------|---------|-------------------|---------------------|---------|
-| [OmnilingualASR 3B](https://dl.fbaipublicfiles.com/mms/omniASR-LLM-Unlimited-3B-v2.pt) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
-| [OmnilingualASR 7B](https://dl.fbaipublicfiles.com/mms/omniASR-LLM-Unlimited-7B-v2.pt) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
+| [OmnilingualASR 3B](https://huggingface.co/facebook/omniASR-LLM-3B) ([unlimited](https://dl.fbaipublicfiles.com/mms/omniASR-LLM-Unlimited-3B-v2.pt)) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
+| [OmnilingualASR 7B](https://huggingface.co/facebook/omniASR-LLM-7B) ([unlimited](https://dl.fbaipublicfiles.com/mms/omniASR-LLM-Unlimited-7B-v2.pt)) | Waxal* | GoAI | CV25, Waxal | OmniCorpus, FLEURS | OmniCorpus* | OmniCorpus |
 | [MMS-1B-All](https://huggingface.co/facebook/mms-1b-all) | Waxal | GoAI | — | — | — | — |
 | [Simba-S](https://huggingface.co/UBC-NLP/Simba-S) | Waxal | GoAI | — | — | — | — |
 
